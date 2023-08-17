@@ -29,13 +29,19 @@ Fora do horário de aula ou monitoria:
 
 ## Slides
 
-| Slide |
-|:------|
+| Slide                                                                         |
+|:------------------------------------------------------------------------------|
+| [slides.pdf](https://curso-r.github.io/202308-visualizacao/slides/slides.pdf) |
 
 ## Scripts utilizados em aula
 
-| Exemplo |
-|:--------|
+| Exemplo                                                                                                   |
+|:----------------------------------------------------------------------------------------------------------|
+| [01-introducao.R](https://curso-r.github.io/202308-visualizacao/exemplos_de_aula/01-introducao.R)         |
+| [02-otimizacao.R](https://curso-r.github.io/202308-visualizacao/exemplos_de_aula/02-otimizacao.R)         |
+| [03-extensoes.R](https://curso-r.github.io/202308-visualizacao/exemplos_de_aula/03-extensoes.R)           |
+| [04-interatividade.R](https://curso-r.github.io/202308-visualizacao/exemplos_de_aula/04-interatividade.R) |
+| [fontes](https://curso-r.github.io/202308-visualizacao/exemplos_de_aula/fontes)                           |
 
 ## Práticas
 
@@ -44,8 +50,18 @@ Fora do horário de aula ou monitoria:
 
 ## Lição de casa
 
-| Exercício |
-|:----------|
+| Exercício                                                                                                       |
+|:----------------------------------------------------------------------------------------------------------------|
+| [01-02-introducao.R](https://curso-r.github.io/202308-visualizacao/exercicios/01-02-introducao.R)               |
+| [03-otimizacao.R](https://curso-r.github.io/202308-visualizacao/exercicios/03-otimizacao.R)                     |
+| [03-pinguins.png](https://curso-r.github.io/202308-visualizacao/exercicios/03-pinguins.png)                     |
+| [03-pixar.png](https://curso-r.github.io/202308-visualizacao/exercicios/03-pixar.png)                           |
+| [03-voos.png](https://curso-r.github.io/202308-visualizacao/exercicios/03-voos.png)                             |
+| [04-extensoes.R](https://curso-r.github.io/202308-visualizacao/exercicios/04-extensoes.R)                       |
+| [04-pinguins_histogram.png](https://curso-r.github.io/202308-visualizacao/exercicios/04-pinguins_histogram.png) |
+| [04-starwars.png](https://curso-r.github.io/202308-visualizacao/exercicios/04-starwars.png)                     |
+| [05-interatividade-sf.R](https://curso-r.github.io/202308-visualizacao/exercicios/05-interatividade-sf.R)       |
+| [star_wars](https://curso-r.github.io/202308-visualizacao/exercicios/star_wars)                                 |
 
 ## Material extra
 

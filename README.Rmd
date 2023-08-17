@@ -57,7 +57,7 @@ Fora do horário de aula ou monitoria:
 
 ```{r}
 "slides/" |>
-  fs::dir_ls(glob = "*.html", fail = FALSE) |>
+  fs::dir_ls(glob = "*.html|*.pdf", fail = FALSE) |>
   path_to_url() |>
   dplyr::select(Slide = url) |>
   knitr::kable()
