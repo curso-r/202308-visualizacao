@@ -37,7 +37,7 @@ if (params$download_material == "TRUE") {
 
 - Nosso fórum: [https://discourse.curso-r.com/](https://discourse.curso-r.com/)
 
-- Nossos livros: 
+- Nossos livros:
   - [Ciência de Dados em R](https://livro.curso-r.com/)
   - [Zen do R](https://curso-r.github.io/zen-do-r/)
   - [Programando em Shiny](https://programando-em-shiny.curso-r.com/)
@@ -59,7 +59,11 @@ Fora do horário de aula ou monitoria:
 "slides/" |>
   fs::dir_ls(glob = "*.html|*.pdf", fail = FALSE) |>
   path_to_url() |>
-  dplyr::select(Slide = url) |>
+  dplyr::select(PDF = url) |>
+  dplyr::mutate(
+    HTML = "[slides.html](https://curso-r.github.io/main-visualizacao/slides/slides.html#1)",
+    .before = 1
+  ) |>
   knitr::kable()
 ```
 
