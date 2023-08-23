@@ -68,15 +68,6 @@ Fora do horário de aula ou monitoria:
 ```
 
 
-## Scripts utilizados em aula
-
-```{r}
-"exemplos_de_aula/" |>
-  fs::dir_ls(fail = FALSE) |>
-  path_to_url() |>
-  dplyr::select(Exemplo = url) |>
-  knitr::kable()
-```
 ## Práticas
 
 ```{r}
@@ -94,6 +85,7 @@ Fora do horário de aula ou monitoria:
   fs::dir_ls(fail = FALSE) |>
   path_to_url() |>
   dplyr::select(Exercício = url) |>
+  dplyr::slice(1) |> 
   knitr::kable()
 ```
 
