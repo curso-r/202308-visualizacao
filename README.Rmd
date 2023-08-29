@@ -89,7 +89,6 @@ Fora do horário de aula ou monitoria:
   knitr::kable()
 ```
 
-
 ## Material extra
 
 Referências extras relacionadas com o conteúdos das aulas, ou materiais que

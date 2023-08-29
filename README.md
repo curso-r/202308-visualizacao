@@ -40,6 +40,7 @@ Fora do horário de aula ou monitoria:
 | [01-ggplo2-simples.png](https://curso-r.github.io/202308-visualizacao/praticas/01-ggplo2-simples.png) |
 | [01-ggplot2-lucro.png](https://curso-r.github.io/202308-visualizacao/praticas/01-ggplot2-lucro.png)   |
 | [01-ggplot2.R](https://curso-r.github.io/202308-visualizacao/praticas/01-ggplot2.R)                   |
+| [02-ggplot2.R](https://curso-r.github.io/202308-visualizacao/praticas/02-ggplot2.R)                   |
 
 ## Lição de casa
 
