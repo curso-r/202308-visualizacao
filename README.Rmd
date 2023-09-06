@@ -85,26 +85,7 @@ Fora do horário de aula ou monitoria:
   fs::dir_ls(fail = FALSE) |>
   path_to_url() |>
   dplyr::select(Exercício = url) |>
-  dplyr::slice(1) |> 
   knitr::kable()
-```
-
-## Material extra
-
-Referências extras relacionadas com o conteúdos das aulas, ou materiais que
-comentamos quando tiramos dúvidas (não necessariamente são relacionadas com o
-conteúdo da aula).
-
-
-```{r echo=FALSE, message=FALSE, warning=FALSE}
-arquivo_csv_materiais <- "extras.csv"
-if (file.exists(arquivo_csv_materiais)) {
-  arquivo_csv_materiais |>
-    readr::read_csv2(show_col_types = FALSE) |>
-    knitr::kable()
-} else {
-  cat("Em breve!")
-}
 ```
 
 ## Redes sociais da Curso-R
