@@ -45,6 +45,12 @@ Fora do horário de aula ou monitoria:
 | [03-duvida-donut.R](https://curso-r.github.io/202308-visualizacao/praticas/03-duvida-donut.R)         |
 | [03-duvidas.R](https://curso-r.github.io/202308-visualizacao/praticas/03-duvidas.R)                   |
 | [04-anotacoes.R](https://curso-r.github.io/202308-visualizacao/praticas/04-anotacoes.R)               |
+| [05-patchwork.R](https://curso-r.github.io/202308-visualizacao/praticas/05-patchwork.R)               |
+| [06-ggridges.R](https://curso-r.github.io/202308-visualizacao/praticas/06-ggridges.R)                 |
+| [07-gganimate.R](https://curso-r.github.io/202308-visualizacao/praticas/07-gganimate.R)               |
+| [07-gganimate.gif](https://curso-r.github.io/202308-visualizacao/praticas/07-gganimate.gif)           |
+| [07-gganimate.mp4](https://curso-r.github.io/202308-visualizacao/praticas/07-gganimate.mp4)           |
+| [08-mapas.R](https://curso-r.github.io/202308-visualizacao/praticas/08-mapas.R)                       |
 
 ## Lição de casa
 
