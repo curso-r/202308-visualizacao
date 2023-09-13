@@ -52,6 +52,8 @@ dados_starwars |>
     label = jabba$nome
   )
 
+# EXTENSOES
+
 # gghighlight
 # install.packages("gghighlight")
 
@@ -66,12 +68,14 @@ dados_starwars |>
 # ggrepel
 
 dados_starwars |>
-  filter(massa < 1000) |>
+  # filter(massa < 1000) |>
   ggplot(aes(massa, altura)) +
   geom_point(size = 3) +
   ggrepel::geom_label_repel(
     aes(label = nome),
-    max.overlaps = 3
+    max.overlaps = Inf,
+    data = dados_starwars |>
+      filter(altura > 220 | massa > 1000)
   )
 
 # ggalt
@@ -99,7 +103,7 @@ dados_starwars |>
     data = dados_starwars |>
       filter(altura > 220),
     colour = "red",
-    s_shape = 1,
+    s_shape = .1,
     expand = 0.05,
     spread = 1,
     size = 2
