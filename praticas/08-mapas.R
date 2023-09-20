@@ -43,3 +43,33 @@ geo_autazes <- read_municipality(1300300)
 geo_autazes |>
   ggplot() +
   geom_sf()
+
+
+# ------------------------
+dados_geobr <- geobr::read_municipality() |>
+  dplyr::filter(abbrev_state == "AL")
+
+dados_com_pnud_anos <- dados_geobr |>
+  dplyr::mutate(muni_id = as.character(code_muni)) |>
+  dplyr::inner_join(abjData::pnud_min, by = "muni_id") |>
+  dplyr::mutate(ano = as.numeric(ano))
+
+# install.packages("transformr")
+remotes::install_github()
+library(gganimate)
+anim <- dados_com_pnud_anos |>
+  ggplot(aes(fill = idhm)) +
+  geom_sf(colour = "black", size = .1) +
+  scale_fill_viridis_b(option = "A", begin = .1, end = .9) +
+  theme_void() +
+  ggspatial::annotation_scale() +
+  ggspatial::annotation_north_arrow(location = "br") +
+  labs(title = "Ano: {frame_time}") +
+  gganimate::transition_time(ano) +
+  gganimate::enter_fade()
+
+gganimate::animate(
+  anim, nframes = 20,
+  width = 400,
+  height = 400
+)
