@@ -35,22 +35,24 @@ Fora do horário de aula ou monitoria:
 
 ## Práticas
 
-| Exemplo                                                                                               |
-|:------------------------------------------------------------------------------------------------------|
-| [01-ggplo2-simples.png](https://curso-r.github.io/202308-visualizacao/praticas/01-ggplo2-simples.png) |
-| [01-ggplot2-lucro.png](https://curso-r.github.io/202308-visualizacao/praticas/01-ggplot2-lucro.png)   |
-| [01-ggplot2.R](https://curso-r.github.io/202308-visualizacao/praticas/01-ggplot2.R)                   |
-| [02-ggplot2.R](https://curso-r.github.io/202308-visualizacao/praticas/02-ggplot2.R)                   |
-| [03-cores.R](https://curso-r.github.io/202308-visualizacao/praticas/03-cores.R)                       |
-| [03-duvida-donut.R](https://curso-r.github.io/202308-visualizacao/praticas/03-duvida-donut.R)         |
-| [03-duvidas.R](https://curso-r.github.io/202308-visualizacao/praticas/03-duvidas.R)                   |
-| [04-anotacoes.R](https://curso-r.github.io/202308-visualizacao/praticas/04-anotacoes.R)               |
-| [05-patchwork.R](https://curso-r.github.io/202308-visualizacao/praticas/05-patchwork.R)               |
-| [06-ggridges.R](https://curso-r.github.io/202308-visualizacao/praticas/06-ggridges.R)                 |
-| [07-gganimate.R](https://curso-r.github.io/202308-visualizacao/praticas/07-gganimate.R)               |
-| [07-gganimate.gif](https://curso-r.github.io/202308-visualizacao/praticas/07-gganimate.gif)           |
-| [07-gganimate.mp4](https://curso-r.github.io/202308-visualizacao/praticas/07-gganimate.mp4)           |
-| [08-mapas.R](https://curso-r.github.io/202308-visualizacao/praticas/08-mapas.R)                       |
+| Exemplo                                                                                                             |
+|:--------------------------------------------------------------------------------------------------------------------|
+| [01-ggplo2-simples.png](https://curso-r.github.io/202308-visualizacao/praticas/01-ggplo2-simples.png)               |
+| [01-ggplot2-lucro.png](https://curso-r.github.io/202308-visualizacao/praticas/01-ggplot2-lucro.png)                 |
+| [01-ggplot2.R](https://curso-r.github.io/202308-visualizacao/praticas/01-ggplot2.R)                                 |
+| [02-ggplot2.R](https://curso-r.github.io/202308-visualizacao/praticas/02-ggplot2.R)                                 |
+| [03-cores.R](https://curso-r.github.io/202308-visualizacao/praticas/03-cores.R)                                     |
+| [03-duvida-donut.R](https://curso-r.github.io/202308-visualizacao/praticas/03-duvida-donut.R)                       |
+| [03-duvidas.R](https://curso-r.github.io/202308-visualizacao/praticas/03-duvidas.R)                                 |
+| [04-anotacoes.R](https://curso-r.github.io/202308-visualizacao/praticas/04-anotacoes.R)                             |
+| [05-patchwork.R](https://curso-r.github.io/202308-visualizacao/praticas/05-patchwork.R)                             |
+| [06-ggridges.R](https://curso-r.github.io/202308-visualizacao/praticas/06-ggridges.R)                               |
+| [07-gganimate.R](https://curso-r.github.io/202308-visualizacao/praticas/07-gganimate.R)                             |
+| [07-gganimate.gif](https://curso-r.github.io/202308-visualizacao/praticas/07-gganimate.gif)                         |
+| [07-gganimate.mp4](https://curso-r.github.io/202308-visualizacao/praticas/07-gganimate.mp4)                         |
+| [08-mapas.R](https://curso-r.github.io/202308-visualizacao/praticas/08-mapas.R)                                     |
+| [09-visualizacao-interativa.R](https://curso-r.github.io/202308-visualizacao/praticas/09-visualizacao-interativa.R) |
+| [10-leaflet-reactable.R](https://curso-r.github.io/202308-visualizacao/praticas/10-leaflet-reactable.R)             |
 
 ## Lição de casa
 
